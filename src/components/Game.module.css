@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+p {
+  text-align: center;
+}
+.seats {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.button {
+  cursor: pointer;
+  width: 150px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: #3498db;
+}
+.buttonContainer {
+  display: inline-flex;
+}
+.bottom {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.restart {
+  background-color: blue;
+  margin-top: 32px;
+}
+.leave {
+  background-color: blue;
+  margin-top: 32px;
+}
+.board-disabled {
+  pointer-events: none;
+}
+
+.disable-hover {
+  pointer-events: none;
+}
